@@ -1,0 +1,58 @@
+.create-modal{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(60, 141, 247);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(139, 139, 139);
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+    h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        
+    }
+    p{
+        font-size: small;
+        margin-bottom: 10px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        // width: 100%;
+        padding: 20px;
+
+        input{
+            width: 250px;
+            height: 30px;
+        }
+        .valid{
+            font-size: small;
+            color: rgb(244, 157, 157);
+        }
+
+        .button-cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            gap: 30px;
+
+            button{
+                width: 100px;
+                background-color: rgb(116, 247, 116);
+                border: none;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .cancle{
+                background-color: rgb(236, 95, 95) ;
+            }
+        }
+    }
+}
